@@ -1,6 +1,6 @@
 public class _20180112_BinarySearch {
 	public static void main(String[] args){
-		int a[] = {98,34,12,56,3326,76,234,6568,34,657,888,90,123,12,6,3,7,1354,76,89,0};
+		int a[] = {98,34,12,56,3326,76,234,6568,34,657,888,99,153,12,6,93,7,1354,76,89,0};
 		boolean result = false;
 		_20180112_BinarySearch bs = new _20180112_BinarySearch();
 		bs.BubbleSort(a, a.length);
