@@ -3,7 +3,7 @@ class Solution {
         Solution s = new Solution();
         char[] letters = {'c', 'f', 'j'};
         char target = 'e';
-        System.out.println(s.nextGreatestLetter(letters,target));
+       // System.out.println(s.nextGreatestLetter(letters,target));
     }
 
     public char nextGreatestLetter(char[] letters, char target) {
