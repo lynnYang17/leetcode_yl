@@ -1,9 +1,15 @@
 class Solution {
     public static void main(String[] args){
         Solution s = new Solution();
+<<<<<<< HEAD
         char[] letters = {'c', 'f', 'j'};
         char target = 'e';
-       // System.out.println(s.nextGreatestLetter(letters,target));
+        System.out.println(s.nextGreatestLetter(letters,target));
+=======
+        char[] letters = {'c', 'f', 'i'};
+        char target = 'n';
+        System.out.println(s.nextGreatestLetter(letters,target));
+>>>>>>> feature1
     }
 
     public char nextGreatestLetter(char[] letters, char target) {
