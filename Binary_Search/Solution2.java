@@ -2,7 +2,7 @@ class Solution2 {
 	public static void main(String[] args){
 		Solution2 s2 = new Solution2();
 		char[] letters = {'c', 'f', 'j'};
-		char target = 'f';
+		char target = 'd';
 		System.out.println(s2.nextGreatestLetter(letters,target));
 	}
 
