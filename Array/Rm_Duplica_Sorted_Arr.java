@@ -18,13 +18,17 @@ public class Rm_Duplica_Sorted_Arr {
         for(int i = 0;i < nums.length;i++){//array to arraylist
             result.add(nums[i]);
         }
-        for(int j = 0;j < result.size();j++){
+        for(int j = 0;j < result.size()-1;j++){
             int key = result.get(j);
-            for(int k = j;k < result.size() - 1;k++){
-                if(key - result.get(k+1) == 0){
-                    result.remove(k + 1);
+            for(int k = j+1;k < result.size();k++){
+                if(key - result.get(k) == 0){
+                    result.remove(k);
+                    k--;
                 }
             }
+        }
+        for(int m = 0;m < result.size();m++){
+            nums[m] = result.get(m);
         }
         for(Iterator it = result.iterator();it.hasNext();){
             System.out.println(it.next());
